@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-personnages.component.css']
 })
 export class ListPersonnagesComponent {
+  personnages = [
+    { name: 'Personnage 1' },
+    { name: 'Personnage 2' },
+    { name: 'Personnage 3' },
+    // ... Ajoutez d'autres personnages ici
+  ];
 
 }
