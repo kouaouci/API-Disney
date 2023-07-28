@@ -9,7 +9,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { UpdatePersonnageComponent } from './pages/update-personnage/update-personnage.component';
 import { CreatePersonnageComponent } from './pages/create-personnage/create-personnage.component';
 import { ModalPersonnageComponent } from './pages/modal-personnage/modal-personnage.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +23,8 @@ import { ModalPersonnageComponent } from './pages/modal-personnage/modal-personn
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
